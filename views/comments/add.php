@@ -60,7 +60,7 @@
   <p>
 
  
-<div class="media">
+
   <img class="align-self-start mr-3" src='uploads/a.png ' width="50" height="50" alt="Generic placeholder image" style='width: 6%;'>
   <div class="media-body">
                 <div id="friend-bio">
@@ -69,8 +69,7 @@
                     <p>  Date posted: <?php echo $comment->date_posted;?></p>
                  
              
-
+                </div></div>
 <?php }?>
-                       </div>
-</div>
-</div>
+                    
+

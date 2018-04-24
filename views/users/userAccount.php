@@ -46,14 +46,14 @@ button:hover, a:hover {
   <img src="<?php echo $user->image; ?> " alt="user" style="width:100%">
   
   <p class="title">Member since: <?php echo $user->create_date; ?></p>
-  
+   <p>Email: <?php echo $user->email; ?></p>
   <div style="margin: 24px 0;">
     <a href="#"><i class="fa fa-dribbble"></i></a> 
     <a href="#"><i class="fa fa-twitter"></i></a>  
     <a href="#"><i class="fa fa-linkedin"></i></a>  
     <a href="#"><i class="fa fa-facebook"></i></a> 
  </div>
- <p>Email:<?php echo $user->email; ?></p>
+
  
             <p>Update your profile picture</p>
              <form id="get-data-form" method="POST"  class="w3-container" enctype="multipart/form-data">

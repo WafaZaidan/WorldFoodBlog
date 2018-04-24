@@ -33,7 +33,7 @@ class User {
     public static function allusers() {
         $list = [];
         $db = Db::getInstance();
-        $req = $db->query('SELECT * FROM username limit 6');
+        $req = $db->query('SELECT * FROM username ');
         // we create a list of Product objects from the database results
         foreach ($req->fetchAll() as $user) {
 
@@ -141,7 +141,7 @@ where id =:id;');
         $req->execute(array('id' => $id));
         $result = $req->fetch();
         if ($result) {
-            return new User($result['id'], $result['username'], '', '', $result['create_date'], $result['image']);
+            return new User($result['id'], $result['username'], '', $result['email'], $result['create_date'], $result['image']);
         } else {
             //replace with a more meaningful exception
             //post with that id not found
