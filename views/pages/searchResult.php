@@ -1,17 +1,7 @@
 <html>
 
-    <body><style>
-            div.a {
-                text-align: center;
-            }
-            div.container{
-                margin: 3px;
-
-
-
-
-            }
-        </style>
+    <body>
+       
 
 
         <div  class = "container" >     <div class="col-md-7">           <div style="overflow-x:auto;">
