@@ -30,7 +30,7 @@
                                         <li><a  href='?controller=cuisine&action=readAllCuisines'>By Cuisine</a></li>
 
                                         <li><a href="?controller=user&action=readallusers">By Contributors</a></li>
-                                        <li><a href="#">Most Popular</a></li>
+                                     
                                           <li><a href="?controller=post&action=readAllPosts">All Recipes</a></li>
 
                                     </ul>
