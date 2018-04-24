@@ -209,7 +209,7 @@ where id =:id;');
             trigger_error("This File Type Not Allowed: " . $_FILES[self::InputKeys]['type']);
         }
         $tempFile = $_FILES[self::InputKeys]['tmp_name'];
-        $path = "/Applications/XAMPP/xamppfiles/htdocs/WorldFoodBlog/uploads/";
+        $path = "C:/xampp/htdocs/WorldFoodBlog/uploads";
         $destinationFile = $path . $imageFileName . '.jpeg';
         $imagePath = "uploads/" . $imageFileName . '.jpeg';
         if (!move_uploaded_file($tempFile, $destinationFile)) {
