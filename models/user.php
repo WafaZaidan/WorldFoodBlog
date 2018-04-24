@@ -33,7 +33,7 @@ class User {
     public static function allusers() {
         $list = [];
         $db = Db::getInstance();
-        $req = $db->query('SELECT * FROM username limit 6');
+        $req = $db->query('SELECT * FROM username ');
         // we create a list of Product objects from the database results
         foreach ($req->fetchAll() as $user) {
 
